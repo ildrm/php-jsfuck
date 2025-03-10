@@ -1,0 +1,23 @@
+{
+    "name": "ildrm/php-jsfuck",
+    "description": "A PHP implementation of JSFuck encoding.",
+    "type": "library",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\JSFuckEncoder\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shahin Ilderemi",
+            "email": "ildrm@hotmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
